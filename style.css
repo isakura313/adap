@@ -27,6 +27,14 @@ fullhd: from 1408px */
 .square:nth-child(3){
     background-color: green;
 }
+article{
+    display: flex;
+}
+article p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+     /* font-size: 24px; */
+}
 
 /* On screens that are 992px or less, set the background color to blue */
 /* mobile */
@@ -35,21 +43,32 @@ fullhd: from 1408px */
     .wrapper{
         flex-direction: column;
         align-items: center;
+       
+    }
+    /* body{
+        background-color: #fff !important;
+    } */
+    article{
+        flex-direction: column;
     }
 
   }
 
 
 /* tablet */
-@media screen and (min-width: 769px) and (max-width:1023px){
+@media screen and (min-width:769px) and (max-width:1025px) {
     body {
       background-color: blue;
+    }
+    article{
+        flex-direction: column;
     }
   }
 
-/* desktop */
-@media screen and (max-width: 992px) {
+/* desktop  to fullHD*/
+@media screen and (min-width: 1026px) and (max-width:1400px) {
     body {
-      background-color: blue;
+      background-color: red;
     }
   }
+

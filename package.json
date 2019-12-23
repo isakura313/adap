@@ -1,0 +1,31 @@
+{
+  "name": "adaptive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "verstka": "gulp tosass",
+    "gulp_watch": "gulp watch",
+    "build": "gulp build",
+    "git": "git add --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isakura313/adap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isakura313/adap/issues"
+  },
+  "homepage": "https://github.com/isakura313/adap#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  }
+}
