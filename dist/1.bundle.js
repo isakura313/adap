@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{2:function(n,e,a){a(1);anime({targets:"div",translateX:"13.5rem",scale:[.75,.9],delay:function(n,e){return 80*e},direction:"alternate",loop:!0})}}]);
