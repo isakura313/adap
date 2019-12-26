@@ -1,4 +1,8 @@
-//module.exports = "Hello world!";
+import anime from "./node_modules/animejs/lib/anime.es"
+
+
+
+
  window.addEventListener("scroll", function(){
 
     // если докрутили до 250 
