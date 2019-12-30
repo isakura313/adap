@@ -1,4 +1,47 @@
+//let { anime } = require('animejs')
+import anime from 'animejs'
 
+//module.exports = "Hello world!";
+ window.addEventListener("scroll", function(){
+  setTimeout( function () {
+    // если докрутили до 350 
+     if(window.pageYOffset > 350){
+        anime({
+            targets: '.green',
+            translateX: '70rem',
+            scale: [1, 1],
+            /* delay: function(el, index) {
+              return index * 800;
+            } */
+          });
+     }
+     setTimeout( function () {
+       if(window.pageYOffset > 350){
+          anime({
+              targets: '.blue',
+              translateX: '70rem',
+              scale: [1, 1],
+              /* delay: function(el, index) {
+                return index * 800;
+              } */
+            });
+       }
+
+     setTimeout( function () {
+     if(window.pageYOffset > 350){
+        anime({
+            targets: '.red',
+            translateX: '70rem',
+            scale: [1, 1],
+            /* delay: function(el, index) {
+              return index * 800;
+            } */
+          });
+      }
+     }, 3000);
+    }, 3000);
+  }, 3000);
+})
 
 //import ('./code');
 
