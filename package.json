@@ -1,14 +1,15 @@
 {
   "name": "adaptive",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build_webpack": "webpack --mode production",
     "verstka": "gulp tosass",
     "gulp_watch": "gulp watch",
     "build": "gulp build",
-    "git": "git add --all"
+    "git": "git add --all",
+    "webpack_watch": "webpack watch"
   },
   "repository": {
     "type": "git",
@@ -22,10 +23,20 @@
   },
   "homepage": "https://github.com/isakura313/adap#readme",
   "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.13.0"
-  }
+    "node-sass": "^4.13.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "animejs": "^3.1.0"
+  },
+  "description": ""
 }

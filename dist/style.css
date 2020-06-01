@@ -1,3 +1,25 @@
-h1 {
-  font-size: 28px;
-  color: red; }
+article{
+  width: 500px;
+  height: 500px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.green{
+  width: 50px;
+  height: 50px;
+  border: 2px solid red;
+  background-color: green;
+}
+
+div {
+  width: 40px;
+  height: 40px;
+ 
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 0%;
+}
